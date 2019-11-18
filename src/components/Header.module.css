@@ -1,0 +1,16 @@
+.root {
+  background-color: #3c4146;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.title {
+  color: #fff;
+  font-size: 1.8rem;
+}
+
+.title:hover {
+  color: hsla(0, 0%, 100%, 0.7);
+}

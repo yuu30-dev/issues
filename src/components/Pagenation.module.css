@@ -1,0 +1,31 @@
+.container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.box {
+  padding: 7px 12px;
+  border: 1px solid #e1e4e8;
+}
+
+.pageLink {
+  composes: box;
+  color: #222;
+}
+
+.pageLink:hover {
+  background-color: #eff3f6;
+}
+
+.current {
+  composes: box;
+}
+
+.pageLink.disable {
+  color: lightgray;
+  cursor: default;
+}
+
+.pageLink.disable:hover {
+  background-color: #fff;
+}

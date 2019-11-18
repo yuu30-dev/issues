@@ -1,0 +1,10 @@
+.number {
+  color: #586069;
+  font-size: 1.2rem;
+}
+
+.title {
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-left: 10px;
+}
