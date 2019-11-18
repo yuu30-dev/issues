@@ -64,9 +64,12 @@ const App = () => {
                 <>
                   <Issues
                     issues={issues}
-                    onIssueItemClick={num =>
-                      history.push(`${match.url}/${num}`)
-                    }
+                    onIssueItemClick={num => {
+                      const nextPage = match.url.endsWith("/")
+                        ? num
+                        : `/${num}`;
+                      history.push(`${match.url}${nextPage}`);
+                    }}
                   />
                   <Pagenation
                     first={firstPage}
